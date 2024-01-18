@@ -1,0 +1,57 @@
+index.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш заголовок</title>
+    <!-- Підключіть стилі тут, якщо вони є -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ваш заголовок</h1>
+    </header>
+
+    <section>
+        <h2>Секція 1</h2>
+        <p>Текст вашого вмісту тут.</p>
+    </section>
+
+    <section>
+        <h2>Секція 2</h2>
+        <p>Текст вашого вмісту тут.</p>
+    </section>
+
+    <footer>
+        <p>© Yuri Allen pc help</p>
+    </footer>
+</body>
+</html>
+styles.css:/* Стилі для вашого сайту тут */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, section, footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1, section h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.8em;
+}
